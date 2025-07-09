@@ -23,15 +23,18 @@ export default function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
         <h1 className={styles.title}>The Anti-nonprofit Plate Game</h1>
-        <section className={styles.introSection}>
-          <p>
-            Welcome to the <b>Anti-nonprofit Plate Game</b>! Plates come in different rarities and sizes. Find plate listings on Instagram at <a href="https://instagram.com/the.anti.nonprofit.plate.game" target="_blank" rel="noopener noreferrer"><b>&#64;the.anti.nonprofit.plate.game</b></a>.
+        <section className={`${styles.introSection} ${styles.lowercase}`}>
+          <p className={styles.introChunk}>
+            welcome to the <b>anti-nonprofit plate game</b>. plates come in different rarities and sizes. find plate listings on instagram at <a href="https://instagram.com/the.anti.nonprofit.plate.game" target="_blank" rel="noopener noreferrer"><b>&#64;the.anti.nonprofit.plate.game</b></a>.
           </p>
-          <p>
-            Buy a plate by Venmoing us, and we&apos;ll drop it off at a secret location you&apos;ll only discover after your purchase!
+          <p className={styles.introChunk}>
+            we are vehemently anti-nonprofit, and the purpose of this game is to spread awareness on the nnd, or the necessary nonprofit disease that affects the hippocampus and tricks high schoolers into starting nonprofits.
           </p>
-          <p>
-            <b>Venmo:</b> <span style={{whiteSpace: 'nowrap'}}>&#64;anti-npg</span> or <span style={{whiteSpace: 'nowrap'}}>206 403 7400</span>
+          <p className={styles.introChunk}>
+            buy a plate by venmoing us, and we&apos;ll drop it off at a secret location you&apos;ll only discover after your purchase.
+          </p>
+          <p className={styles.introChunk}>
+            <b>venmo:</b> &#64;anti-npg or 206 403 7400
           </p>
         </section>
         <a
@@ -56,8 +59,8 @@ export default function Home() {
             <tbody>
               {PLATES.map((plate, idx) => (
                 <tr key={idx}>
-                  <td>{plate.rarity}</td>
-                  <td>{plate.size}</td>
+                  <td>{plate.rarity.charAt(0).toUpperCase() + plate.rarity.slice(1).toLowerCase()}</td>
+                  <td className={styles.upper}>{plate.size.toUpperCase()}</td>
                   <td>${plate.price.toFixed(2)}</td>
                 </tr>
               ))}
@@ -65,7 +68,7 @@ export default function Home() {
           </table>
         </section>
 
-        <section className={styles.howToPlaySection}>
+        <section className={`${styles.howToPlaySection} ${styles.lowercase}`}>
           <h2>How It Works</h2>
           <ol>
             <li>Check out available plates on our <a href="https://instagram.com/the.anti.nonprofit.plate.game" target="_blank" rel="noopener noreferrer"><b>&#64;the.anti.nonprofit.plate.game</b></a>.</li>
@@ -74,7 +77,7 @@ export default function Home() {
           </ol>
         </section>
 
-        <section className={styles.faqSection}>
+        <section className={`${styles.faqSection} ${styles.lowercase}`}>
           <h2>FAQ & Contact</h2>
           <ul>
             <li><b>What are the plate rarities?</b> Common, Rare, Epic, Legendary, and Anti-nonprofit. Each comes in Medium, Large, and Extra-Large.</li>
