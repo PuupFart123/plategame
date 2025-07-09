@@ -25,13 +25,13 @@ export default function Home() {
         <h1 className={styles.title}>The Anti-nonprofit Plate Game</h1>
         <section className={styles.introSection}>
           <p>
-            Welcome to the <b>Anti-nonprofit Plate Game</b>! Plates come in different rarities and sizes. Find plate listings on Instagram at <a href="https://instagram.com/the.anti.nonprofit.plate.game" target="_blank" rel="noopener noreferrer"><b>@the.anti.nonprofit.plate.game</b></a>.
+            Welcome to the <b>Anti-nonprofit Plate Game</b>! Plates come in different rarities and sizes. Find plate listings on Instagram at <a href="https://instagram.com/the.anti.nonprofit.plate.game" target="_blank" rel="noopener noreferrer"><b>&#64;the.anti.nonprofit.plate.game</b></a>.
           </p>
           <p>
             Buy a plate by Venmoing us, and we'll drop it off at a secret location you'll only discover after your purchase!
           </p>
           <p>
-            <b>Venmo:</b> <span style={{whiteSpace: 'nowrap'}}>@anti-npg</span> or <span style={{whiteSpace: 'nowrap'}}>206 403 7400</span>
+            <b>Venmo:</b> <span style={{whiteSpace: 'nowrap'}}>&#64;anti-npg</span> or <span style={{whiteSpace: 'nowrap'}}>206 403 7400</span>
           </p>
         </section>
         <a
@@ -68,8 +68,8 @@ export default function Home() {
         <section className={styles.howToPlaySection}>
           <h2>How It Works</h2>
           <ol>
-            <li>Check out available plates on our <a href="https://instagram.com/the.anti.nonprofit.plate.game" target="_blank" rel="noopener noreferrer"><b>@the.anti.nonprofit.plate.game</b></a>.</li>
-            <li>Venmo <b>@anti-npg</b> or <b>206 403 7400</b> the price of your chosen plate (include your Instagram handle in the note).</li>
+            <li>Check out available plates on our <a href="https://instagram.com/the.anti.nonprofit.plate.game" target="_blank" rel="noopener noreferrer"><b>&#64;the.anti.nonprofit.plate.game</b></a>.</li>
+            <li>Venmo <b>&#64;anti-npg</b> or <b>206 403 7400</b> the price of your chosen plate (include your Instagram handle in the note).</li>
             <li>After payment, you'll receive a secret location for your plate drop-off!</li>
           </ol>
         </section>
@@ -78,9 +78,9 @@ export default function Home() {
           <h2>FAQ & Contact</h2>
           <ul>
             <li><b>What are the plate rarities?</b> Common, Rare, Epic, Legendary, and Anti-nonprofit. Each comes in Medium, Large, and Extra-Large.</li>
-            <li><b>How do I pay?</b> Venmo <b>@anti-npg</b> or <b>206 403 7400</b>.</li>
+            <li><b>How do I pay?</b> Venmo <b>&#64;anti-npg</b> or <b>206 403 7400</b>.</li>
             <li><b>Where do I get my plate?</b> We'll DM you a secret location after your purchase!</li>
-            <li><b>Questions?</b> DM us on <a href="https://instagram.com/the.anti.nonprofit.plate.game" target="_blank" rel="noopener noreferrer"><b>@the.anti.nonprofit.plate.game</b></a>.</li>
+            <li><b>Questions?</b> DM us on <a href="https://instagram.com/the.anti.nonprofit.plate.game" target="_blank" rel="noopener noreferrer"><b>&#64;the.anti.nonprofit.plate.game</b></a>.</li>
           </ul>
         </section>
       </main>
