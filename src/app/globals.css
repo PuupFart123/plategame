@@ -28,6 +28,7 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  color: black;
 }
 
 a {
@@ -45,10 +46,12 @@ a {
 h1, h2, h3 {
   font-family: var(--font-libre-baskerville), serif;
   font-weight: 700;
+  color: black;
 }
 
 /* Font family for body and text */
 body, table, th, td, p, li, ul, ol {
   font-family: var(--font-montserrat), sans-serif;
   font-weight: 400;
+  color: black;
 }
