@@ -15,6 +15,7 @@
   gap: 64px;
   font-family: var(--font-geist-sans);
   text-transform: lowercase;
+  color: black;
 
   /* Background image and overlay */
   background: 
