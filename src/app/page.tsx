@@ -28,7 +28,7 @@ export default function Home() {
             Welcome to the <b>Anti-nonprofit Plate Game</b>! Plates come in different rarities and sizes. Find plate listings on Instagram at <a href="https://instagram.com/the.anti.nonprofit.plate.game" target="_blank" rel="noopener noreferrer"><b>&#64;the.anti.nonprofit.plate.game</b></a>.
           </p>
           <p>
-            Buy a plate by Venmoing us, and we'll drop it off at a secret location you'll only discover after your purchase!
+            Buy a plate by Venmoing us, and we&apos;ll drop it off at a secret location you&apos;ll only discover after your purchase!
           </p>
           <p>
             <b>Venmo:</b> <span style={{whiteSpace: 'nowrap'}}>&#64;anti-npg</span> or <span style={{whiteSpace: 'nowrap'}}>206 403 7400</span>
@@ -70,7 +70,7 @@ export default function Home() {
           <ol>
             <li>Check out available plates on our <a href="https://instagram.com/the.anti.nonprofit.plate.game" target="_blank" rel="noopener noreferrer"><b>&#64;the.anti.nonprofit.plate.game</b></a>.</li>
             <li>Venmo <b>&#64;anti-npg</b> or <b>206 403 7400</b> the price of your chosen plate (include your Instagram handle in the note).</li>
-            <li>After payment, you'll receive a secret location for your plate drop-off!</li>
+            <li>After payment, you&apos;ll receive a secret location for your plate drop-off!</li>
           </ol>
         </section>
 
@@ -79,7 +79,7 @@ export default function Home() {
           <ul>
             <li><b>What are the plate rarities?</b> Common, Rare, Epic, Legendary, and Anti-nonprofit. Each comes in Medium, Large, and Extra-Large.</li>
             <li><b>How do I pay?</b> Venmo <b>&#64;anti-npg</b> or <b>206 403 7400</b>.</li>
-            <li><b>Where do I get my plate?</b> We'll DM you a secret location after your purchase!</li>
+            <li><b>Where do I get my plate?</b> We&apos;ll DM you a secret location after your purchase!</li>
             <li><b>Questions?</b> DM us on <a href="https://instagram.com/the.anti.nonprofit.plate.game" target="_blank" rel="noopener noreferrer"><b>&#64;the.anti.nonprofit.plate.game</b></a>.</li>
           </ul>
         </section>
